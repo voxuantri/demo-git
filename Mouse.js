@@ -4,5 +4,5 @@ function Mouse(name){
 }
 Mouse.prototype.die = function(){
 	this.dead = true;
-}
+};
 module.exports = Mouse;
