@@ -1,0 +1,18 @@
+// git init
+// git add
+// git commit -m ''
+
+// git log
+// git show
+// git diff
+
+// working directory
+// staging area
+// git repository
+
+// git checkout .. <file>
+// git reset
+
+// git checkout -b branch(branching)
+// git checkout branch
+// git merge
