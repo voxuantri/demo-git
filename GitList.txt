@@ -16,3 +16,13 @@
 // git checkout -b branch(branching)
 // git checkout branch
 // git merge
+// A<--B
+// git checkout A
+// git merge B
+// git branch -D <name-branch (Delete branch)
+
+// git reset --soft <to-commit> move status COMMIT to staging area but no change file, to-commit is SHA1 ID
+// git reset --mixed <to-commit> move status COMMIT to working directory but not change, file to-commit is SHA1 ID
+// git reset --hard <to-commit> move status COMMIT to working directory but change file, to-commit is SHA1 ID
+
+// git revert <to-commit> move status file to status SHA1 ID
