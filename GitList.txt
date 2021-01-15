@@ -27,3 +27,9 @@
 
 // git revert <to-commit> move status file to status SHA1 ID
 // .gitignore
+
+// git config --global credential.helper store
+// ^^^ not commend (~/.git-credentials)
+
+// git config --global credential.helper "cache --timeout=18000"
+// google "gnome-kering" "git ssh"
