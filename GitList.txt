@@ -26,3 +26,4 @@
 // git reset --hard <to-commit> move status COMMIT to working directory but change file, to-commit is SHA1 ID
 
 // git revert <to-commit> move status file to status SHA1 ID
+// .gitignore
