@@ -5,4 +5,7 @@ function Chicken(name){
 Chicken.prototype.eat = function(mouse){
 	this.stomach.push(mouse);
 }; 
+Chicken.prototype.run = function(){
+	console.log('Running');
+}; 
 module.exports = Chicken;
