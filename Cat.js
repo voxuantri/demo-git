@@ -13,5 +13,8 @@ Cat.prototype.eat = function(animal){
 		throw new Error('Cat can only eat Mouse')
 	}
 }; 
+Cat.prototype.run = function(animal){
 
+	console.log('Running');
+}; 
 module.exports = Cat;
