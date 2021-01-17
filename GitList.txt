@@ -32,7 +32,7 @@
 // ^^^ not commend (~/.git-credentials)
 
 // git config --global credential.helper "cache --timeout=18000"
-// google "gnome-kering" "git ssh"
+// google "gnome-keyring" "git ssh"
 
 // git clone
 // git pull
@@ -50,11 +50,11 @@ When will conflits happen?
 	2. A deleted file X, B modified file X
 
 Method 1:
-	1. Using git base
-	2. Resolve conflits
+	1. Using 'git rebase'
+	2. Resolve confilts
 	3. Push again with -f
 
 Method 2:
 	1. Merge updated master to feature branch
-	2. Resolve conflit
+	2. Resolve confilt
 	3. Commit and push
